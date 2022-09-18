@@ -101,7 +101,7 @@ function changeToLightTheme() {
   var petals = document.getElementsByClassName("petal");
 	for(var i = 0; i < petals.length; i++) {
 		petals[i].style.background = "linear-gradient(#090979, #fd1d1d, #fcf745)";
-    petals[i].style.border = "1px solid #5b14a2";
+    petals[i].style.border = ".1vmin solid #5b14a2";
 	}
   
   //Clock
@@ -138,7 +138,7 @@ function changeToDarkTheme() {
   var petals = document.getElementsByClassName("petal");
 	for(var i = 0; i < petals.length; i++) {
 		petals[i].style.background = "linear-gradient(#48c9b0, #6f48c9, #c94861)";
-    petals[i].style.border = "1px solid #a2c948";
+    petals[i].style.border = ".1vmin solid #a2c948";
 	}
   
   //Clock
